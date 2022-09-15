@@ -9,4 +9,4 @@ done < /var/log/nginx/error.log* >> /home/tony/GitProject/learning/MyScripts/log
 
 git add logfile.csv
 git commit -m "new logs from nginx"
-git push origin master
+git push 
