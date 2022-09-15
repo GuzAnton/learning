@@ -7,6 +7,6 @@ while read text; do
 echo $text
 done < /var/log/nginx/error.log.* >> /home/logfile.csv
 
-git add logfile.csv
-git commit -m "new logs from nginx"
-git push origin master
+#git add logfile.csv
+#git commit -m "new logs from nginx"
+#git push origin master
